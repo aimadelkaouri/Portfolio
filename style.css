@@ -112,6 +112,8 @@ a{
 }
 .hero .next{
     text-align: center;
+    cursor: pointer;
+    padding: 30px;
 }
 
 

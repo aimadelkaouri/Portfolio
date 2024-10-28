@@ -12,11 +12,11 @@
         <div class="abr"><div class="backgroundae"></div> <a href="">AE</a></div>
         <div class="navinfo">
             <ul>
-                <li><a href="">About Me</a> </li>
-                <li><a href="skills">Skills</a> </li>
-                <li><a href="projects">Projects</a> </li>
-                <li><a href="milstones">Milstones</a> </li>
-                <li><a href="">Contact</a> </li>
+                <li><a href="about" onclick="toabout(event)">About Me</a> </li>
+                <li><a href="skills" onclick="toskills(event)">Skills</a> </li>
+                <li><a href="Projects" onclick="toprojects(event)">Projects</a> </li>
+                <li><a href="Milstones" onclick="tomilstones(event)">Milstones</a> </li>
+                <li><a href="Contact" onclick="tocontact(event)">Contact</a> </li>
             </ul>
         </div>
         <div class="moncv"><a href="">Resume</a> </div>
@@ -43,7 +43,7 @@
                   </p>
             </div>
             <div class="cta"><a href="">Resume</a><a href="">Contact Me</a></div>
-            <div class="next">Scroll Down</div>
+            <div class="next" onclick="scrollPage()">Scroll Down</div>
         </div>
         <div class="righthero">
             <img src="parfum .png" alt="">
@@ -52,7 +52,7 @@
 
 
 
-    <div class="aboutme">
+    <div class="aboutme" id="aboutme">
         <div class="title">
         About Me
         </div>
@@ -284,6 +284,17 @@ Translated with DeepL.com (free version)
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
                 </section>
                 </div>
+                <br> <br>
+                <div class="row row-1">
+                    <section>
+                        <i class="icon fas fa-paper-plane"></i>
+                        <div class="details">
+                        <span class="title">Webmaster - DHM Faire Part</span>
+                        <span class="date">5th Jan 2021</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                    </section>
+                    </div>
                 <div class="row row-2">
                 <section>
                     <i class="icon fas fa-map-marker-alt"></i>
@@ -299,7 +310,7 @@ Translated with DeepL.com (free version)
 
 
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="title">
             <h1>Contact</h1>
             <span>Call or write anytime</span>
@@ -364,5 +375,7 @@ Translated with DeepL.com (free version)
         <hr>
         <p>Copyright © 2024 | All rights reserved. Made with Love</p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
